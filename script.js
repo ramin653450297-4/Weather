@@ -38,7 +38,7 @@ function clearWeatherData() {
     humidityElement.textContent = '';
     windElement.textContent = '';
     uvElement.textContent = '';
-    uvElement.className = 'uv'; // Reset UV element class
+    uvElement.className = 'uv'; 
 }
 
 function getWeather() {
@@ -94,7 +94,7 @@ function getUVIndex(lat, lon) {
 }
 
 function setUVIndexClass(uvIndex) {
-    uvElement.className = 'uv'; // Reset class
+    uvElement.className = 'uv'; 
     if (uvIndex < 3) {
         uvElement.classList.add('uv-low');
     } else if (uvIndex >= 3 && uvIndex <= 5) {
