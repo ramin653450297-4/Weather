@@ -9,8 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: hsl(201, 100%, 67%);
-    background-image: url('https://pixabay.com/images/search/landscape/');
+    background-image: url('https://wallpapercave.com/wp/TvGvWdR.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,9 +64,65 @@ h2{
     font-size: 16px;
     margin-top: 5px;
 }
+.uv {
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.uv-low {
+    background-color: green;
+    color: white;
+}
+
+.uv-moderate {
+    background-color: yellow;
+    color: black;
+}
+
+.uv-high {
+    background-color: orange;
+    color: white;
+}
+
+.uv-very-high {
+    background-color: darkorange;
+    color: white;
+}
+
+.uv-extreme {
+    background-color: red;
+    color: white;
+}
+
 .fa-location-dot{
     font-size: 24px;
     position: relative;
     bottom: 4px;
     right: 4px;
 }
+.search-container {
+    position: relative;
+  }
+  
+  #cityinput {
+    padding-right: 30px; 
+    display: inline-block; 
+  }
+  
+  #searchbtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .fa-solid.fa-magnifying-glass {
+    margin-top: 5px;
+    color:hsl(0, 0%, 0%);
+    font-size: 18px;
+  }
+  

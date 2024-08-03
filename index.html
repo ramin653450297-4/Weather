@@ -15,8 +15,12 @@
         <div class="weather-card">
             <h2>Check weather in your city</h2>
             <div class="weather-input">
-                <input type="text" placeholder="Enter city name" id="cityinput">
-                <a id="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <div class="search-container">
+                    <input type="text" placeholder="Enter city name" id="cityinput">
+                    <label for="cityinput" id="searchbtn">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                  </div>
             </div>
             <div class="weather-info">
                 <div class="location"></div>
@@ -25,6 +29,7 @@
                 <div class="description"></div>
                 <div class="humidity"></div>
                 <div class="wind"></div>
+                <div class="uv"></div>
             </div>
         </div>
     </div>
